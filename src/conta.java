@@ -1,5 +1,4 @@
-        public class conta extends pessoa
-
+        public class conta {
         private double valorsaque;
         private double valordepo;
         private double saldo;
@@ -12,7 +11,7 @@
             this.saque = saque;
             this.transf = transf;
             this.valordepo = depo;
-} 
+        } 
             public double getValorsaque() {
                             return valorsaque;
             }
@@ -47,7 +46,7 @@
             // FIM GETTERS AND SETTERS
             public void saque (){
 
-                0
+                
 
             }
 
